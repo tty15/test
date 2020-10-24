@@ -6,6 +6,8 @@
 function testsum($a,$b)
 {
  
-  //hjkhkhkhkhkhkhk
-  return $a+$b;
+   return $a+$b;
+}
+function sum2($a,$b){
+  return ($a+$b)*2;
 }
