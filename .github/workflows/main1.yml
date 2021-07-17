@@ -8,7 +8,7 @@ on:
     branches: [ master ]
 
   # Allows you to run this workflow manually from the Actions tab
-  workflow_dispatch:
+  # workflow_dispatch:
 
 # A workflow run is made up of one or more jobs that can run sequentially or in parallel
 jobs:
@@ -35,6 +35,6 @@ jobs:
   my_deploy:
     runs-on: ubuntu-latest
     steps:
-    - name: Ptint hello
-    - run: HELLO
+      - name: Ptint hello
+      - run: HELLO
   
