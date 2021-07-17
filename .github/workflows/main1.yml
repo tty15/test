@@ -36,5 +36,5 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Ptint hello
-      - run: HELLO
+        run: HELLO
   
