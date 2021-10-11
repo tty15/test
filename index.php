@@ -14,7 +14,7 @@ function sum2($a,$b){
 function sum3($a,$b){
   return ($a+$b)*3;
 }
-public function test4($a)
+public function test4($b)
 { 
-   return $a
+   return $b
 }
