@@ -5,4 +5,9 @@ class ClassTest
     {
         return $b;
     }
+    
+    public function twoFunct($bs)
+    {
+        return $bs
+    }
 }
